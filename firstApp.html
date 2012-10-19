@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<title>Trace Helms | Breakout</title>
+	<style>
+        html, body {
+            height: 80%; 
+            width: 80%;
+            margin: 2% auto;
+        }
+        h1, h2, h3 {
+            margin: 0 auto;
+            /*text-align: center;*/
+        }
+        #container {
+            width: 100%;
+            margin: 0 auto;
+        }
+    </style>
+    <script 
+        src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="js/flot/jquery.flot.js"></script>
+    <script type="text/javascript" src="js/firstapp.js"></script>
+    
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $.fn.draw();
+        });
+    </script>
+</head>
+
+<body>
+    
+    <div id="container">
+        <canvas id="canvas" style="border:1px solid #000000;">
+            Your browser doesn't support the canvas tag...lame!</canvas>
+	</div>
+    
+    <h1>Breakout!</h1>
+    <h2>By Trace Helms</h2>
+    <h3>Main code and idea from following the tutorial 
+        <a href="http://billmill.org/static/canvastutorial/index.html">here</a>.</h3>
+    
+    
+</body>
+
+</html>
+
